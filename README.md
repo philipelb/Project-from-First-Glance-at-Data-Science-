@@ -1,4 +1,4 @@
-# Project-from-First-Glance-at-Data-Science-
-Here you can see the projects i have done to complete the "First Glance at Data Science" course on hyperskill.org
+# My-Projects
+Here you can see the projects that I have created
 
-The first project that i have done was the Zookeeper project
+My very first Proejcts where done during my studies in uni where we got a custom library that represented an led-board and we had to make some kind of game or animation.
