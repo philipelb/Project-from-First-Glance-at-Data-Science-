@@ -130,7 +130,7 @@ while True:
         print("See you later!")
         break
     else:
-        if int(user_input) >0 and int(user_input) < len(animals):
-            print(animals[int(user_input)])
+        if int(user_input) >=0 and int(user_input) <= len(animals):
+            print(animals[int(user_input)-1])
         else:
             print("habitat not found")
