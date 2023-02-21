@@ -82,4 +82,33 @@ if __name__ == '__main__':
     
     print(pivot_1)
     print(pivot_2)
+    
+    #The Output looks like this:
+    pivot_1:
+    left           0.0                  1.0              
+salary        high    low medium   high    low medium
+Department                                           
+IT           193.0  198.5  199.0  155.0  235.0  198.0
+management   196.0  208.0  201.0  259.0  230.5  235.0
+marketing    173.0  199.5  185.0  148.5  155.0  157.0
+product_mng  172.0  198.5  202.0  149.0  218.0  154.5
+sales        190.0  198.0  198.0  241.5  224.5  225.0
+support      214.0  194.5  196.0  237.0  219.0  221.0
+technical    193.0  197.0  202.0  157.5  244.0  232.0
+
+pivot_2:
+                                  max        ...                min      
+                      last_evaluation        ... satisfaction_level      
+promotion_last_5years               0     1  ...                  0     1
+time_spend_company                           ...                         
+2                                 1.0  0.99  ...               0.09  0.29
+4                                 1.0  0.90  ...               0.09  0.15
+5                                 1.0  0.91  ...               0.09  0.23
+6                                 1.0  0.71  ...               0.12  0.48
+10                                1.0  0.94  ...               0.14  0.22
+
+[5 rows x 12 columns]
+
+
+
 
